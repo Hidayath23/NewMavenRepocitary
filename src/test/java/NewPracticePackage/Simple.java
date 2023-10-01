@@ -9,4 +9,10 @@ public class Simple
 	{
 		System.out.println("Simple programme is executing");
 	}
+	
+	@Test(groups = {"Smoke", "Reggression"})
+	public void simple1()
+	{
+		System.out.println("Simple programme is executing");
+	}
 }
